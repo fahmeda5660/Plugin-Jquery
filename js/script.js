@@ -38,24 +38,21 @@ var typed = new Typed('.typed-part', {
    * @property {string} stringsElement ID of element containing string children
    */
   strings: [
-    'Ramadan – let this month heal you.',
-    'Mold yourself, ',
-    'Shape your self, ',
-    'This Ramadan changes your self, be a practicing Muslim.',
-    'Ramadan is like the Rain. It nourishes the seed of good deeds.'
+    'Your Birthaday is coming within:',
+    'Your Birthaday is coming within:'
   ],
   stringsElement: null,
 
   /**
    * @property {number} typeSpeed type speed in milliseconds
    */
-  typeSpeed: 400,
+  typeSpeed: 100,
   startDelay: 100,
 });
 
 // *****************************counter-down-part***************************** 
 // Set the date we're counting down to
-var countDownDate = new Date("April 19, 2021 21:48:20").getTime();
+var countDownDate = new Date("May 9, 2023 23:59:50").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
